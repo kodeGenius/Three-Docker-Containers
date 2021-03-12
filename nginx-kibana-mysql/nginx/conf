@@ -1,0 +1,8 @@
+server {
+    listen       80;
+    server_name  localhost;
+    location / {
+        nginx_pass   http://localhost:8000;
+    }
+
+}
